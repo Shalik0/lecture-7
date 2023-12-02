@@ -21,16 +21,16 @@ width: 100px;
 height: 100px;
 bottom: 50px;
 left: 200px;
-background-image: url(../pics/tommy.png);
 position: absolute;
 animation-name: tommy;
-animation-duration:8s;
+animation-duration:7.5s;
 animation-direction: reverse;
+animation-iteration-count: infinite;
 }
 
 @keyframes tommy {
 0% {left: 50px;}
-50% {left: 1200px;}
+50% {left: 1100px;}
 100% {left: 50px;}
 }
 
@@ -41,15 +41,15 @@ width: 100px;
 height: 100px;
 bottom: 50px;
 left: 300px;
-background-image: url(../pics/jerry.png);
 position: absolute;
 animation-name: jerry;
 animation-duration:7s;
 animation-direction: reverse;
+animation-iteration-count: infinite;
 }
 @keyframes jerry {
 0% {left: 150px;}
-50% {left: 1200px;}
+50% {left: 1100px;}
 100% {left: 150px;}
 }
 
