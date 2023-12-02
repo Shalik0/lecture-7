@@ -1,9 +1,55 @@
-.barn{
-    background-image:url("pics/barn.jpg");
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
+body {
+  margin: 0;
+  margin-top: 10px;
+  max-width: 1200px;
+}
+
+.background{
+  background-image: url(../pics/barn.jpg);
+  width: 100%;
+	height: 900px;
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+
+.tommy {
+width: 100px;
+height: 100px;
+bottom: 50px;
+left: 200px;
+background-image: url(../pics/tommy.png);
+position: absolute;
+animation-name: tommy;
+animation-duration:8s;
+animation-direction: reverse;
+}
+
+@keyframes tommy {
+0% {left: 50px;}
+50% {left: 1200px;}
+100% {left: 50px;}
+}
+
+
+
+.jerry {
+width: 100px;
+height: 100px;
+bottom: 50px;
+left: 300px;
+background-image: url(../pics/jerry.png);
+position: absolute;
+animation-name: jerry;
+animation-duration:7s;
+animation-direction: reverse;
+}
+@keyframes jerry {
+0% {left: 150px;}
+50% {left: 1200px;}
+100% {left: 150px;}
+}
+
